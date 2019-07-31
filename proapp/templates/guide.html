@@ -1,0 +1,215 @@
+{% load staticfiles %}
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <p><p><p>
+
+<ul class="nav justify-content-end">
+  <li class="nav-item">
+
+    <a class="nav-link " href="{% url 'home' %}"><h2>홈</h2></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="{% url 'guide' %}"><h2>가이드</h2></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="{% url 'synergy' %}"><h2>시너지</h2></a>
+  </li>
+    <li class="nav-item">
+    <a class="nav-link" href="{% url 'item' %}"><h2>아이템</h2></a>
+  </li>
+      <li class="nav-item">
+    <a class="nav-link" href="{% url 'url' %}"><h2>영상</h2></a>
+
+  </li>
+
+
+</ul>
+<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+      <h1 class="display-4">가이드</h1>
+      <p><p>
+      <p class="lead"> <h5> <font color = "#A6A6A6"> " 패치 노트 "</h5> </p>
+</div>
+<p><p><p>
+<div class="container">
+<p><p><p>
+<div class="row">
+  <div class="col-4">
+    <div class="list-group" id="list-tab" role="tablist">
+      <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">2019년 07월 27일(목)</a>
+      <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">2019년 07월 20일(토)</a>
+      <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">2019년 07월 18일(목)</a>
+      <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">2019년 07월 17일(수)</a>
+    </div>
+  </div>
+  <div class="col-8">
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+      <p>
+암살자 
+ 너프 
+
+•추가 치명타 피해량: 150%/350% ⇒ 125%/350%
+
+<p>
+마법사 
+ 버프 
+
+•추가 주문력: 35%/100% ⇒ 45%/100%
+
+<p>
+야생 
+ 버프 
+
+•중첩된 분노당 공격 속도: 8% ⇒ 10%
+
+<p>
+원소술사 
+ 너프 
+
+•골렘의 HP: 2500 ⇒ 2200
+
+<p>
+ 아리 마법사 야생 
+ 버프 
+
+•스킬 피해량: 100/175/250 ⇒ 100/200/300
+
+<p>
+ 아칼리 암살자 닌자 
+ 너프 
+
+•체력: 700 ⇒ 650
+•공격 속도: 0.75 ⇒ 0.7
+
+<p>
+ 이블린 암살자 악마 
+ 조정 
+
+•공격력: 50 ⇒ 60
+•체력: 600 ⇒ 550
+<p>
+
+ 케넨 원소술사 닌자 요들 
+ 너프 
+
+•공격력: 70 ⇒ 65
+
+<p>
+ 모데카이저 기사 유령 
+ 버프 
+
+•체력: 500 ⇒ 550
+
+<p>
+ 뽀삐 기사 요들 
+ 버프 
+
+•스킬 피해량: 300/400/500 ⇒ 300/500/700
+
+<p>
+ 렝가 암살자 야생 
+ 버프 
+
+•공격력: 55 ⇒ 65
+
+<p>
+ 트리스타나 총잡이 요들 
+ 너프 
+
+•공격 속도: 0.7 ⇒ 0.65
+<p>
+
+ 볼리베어 싸움꾼 빙하 
+ 너프 
+
+•방어력: 35 ⇒ 30
+•공격 속도: 0.65 ⇒ 0.55
+<p>
+
+저주받은 칼날 
+ 너프 
+
+•효과 발동률: 25% ⇒ 20%
+
+<p>
+다른 아이템의 효과 발동률 공개 
+
+•파쇄검의 효과 발동률은 25%이며, 침묵의 효과 발동률은 50% 입니다.
+
+<p>
+무한의 대검 
+ 버프 
+
+•치명타 피해량: 100% ⇒ 150%
+<p>
+
+모렐로노미콘 
+ 버프 
+
+•초당 적 최대 체력 비례 피해량: 3% ⇒ 5%
+<p>
+
+버그 수정 
+
+•칼날부리가 정상적으로 아이템을 항상 드롭합니다.
+•수호자가 사망한 경우 해당 시너지가 사라지는 문제가 수정되었습니다.
+•구원이 이제 정상적으로 1000의 체력을 회복합니다.
+•수호 천사가 이제 정상적으로 모든 경우에 정상 발동합니다.
+
+<p>
+치명타 피해량 공식 변경 
+
+•치명타 피해량 계산 방식이 곱셈에서 덧셈으로 변경됩니다. 이번 패치 적용으로 암살자와 무한의 대검이 영향을 받게 되는데, 암살자의 경우 기존보다 25% 낮은 피해를 피해를 주게 되며, 무한의 대검은 기존과 거의 변화가 없습니다.
+</div>
+      <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+      <p>
+강철의 솔라리 팬던트 
+ 너프 
+
+•보호막 흡수량: 300 ⇒ 200
+</div>
+      <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+       <p>
+제국 
+
+•이제 제국 특성 보너스가 아이템에 적용되지 않습니다.
+
+ <p>
+체력 
+
+•- 2단계 유닛이 체력 아이템 착용 시 의도된 것보다 더 많은 체력을 얻는 버그를 수정했습니다.
+ <p>
+•- 2성 또는 3성 형상변환자가 변신 시 의도된 것보다 더 많은 체력을 얻는 버그를 수정했습니다.
+
+</div>
+      <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+      <p>
+ 파이크 암살자 해적 
+ 너프 
+
+•기절 지속시간: 2.5/3.0/3.5 >>> 2.0/2.5/3.0
+
+<p>
+요들 
+ 버프 
+
+•빗나갈 확률: 20/50% >>> 25/60%
+
+<p>
+쇼진의 창 
+ 너프 
+
+•여전히 공격시 20%의 마나를 회복하던 버그를 수정했습니다.
+•공격 당 마나 회복량: 20% >>> 15%
+•(참고: 지난 번 패치시 20% >>> 15%로 너프를 했지만, 실제로는 20%를 유지하던 버그(?)를 고침
+</div>
+    </div>
+  </div>
+</div>
+
+</body>
